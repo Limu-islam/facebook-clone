@@ -1,0 +1,100 @@
+
+.App{
+        height: 100vh;
+        width: 100vw;
+        
+}
+
+.top-bar{
+ 
+        height: 10vh;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px -1px 4px #808080;
+        position: sticky;
+    
+}
+
+/* top bar left side */
+
+.leftside{
+height: 8vh;
+width: 22vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.search{
+        height: 6vh;
+        width: 15vw;
+    border-radius: 12px;
+    margin-left: 10px;
+    border: none;
+background-color: rgb(228, 227, 225);
+outline: none;
+}
+
+.fb-logo {
+        height: 40px;
+        width: 40px;
+        color: blue;
+    }
+    .searchdiv{
+            height: 6.5vh;
+            width: 18.2vw;
+            background-color: rgb(228, 227, 225);
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+    }
+    /* top bar middle side */
+    .middlediv {
+        display: flex;
+            width: 55vw;
+         
+            height: 10vh;
+                
+            justify-content: space-around;
+            align-items: center; 
+    }
+.secondmiddlediv {
+        display: flex;
+        width: 40vw;
+margin: 0;
+        height: 8vh;
+        justify-content: space-around;
+
+       align-items: center;
+}
+/* .secondmiddlediv .TopbarMiddle{
+        display: flex;    
+        justify-content: space-around;
+        align-items: center;
+
+} */
+    .icondiv{
+            height: 30px;
+            width: 30px;
+           
+    }
+
+    .rightdiv{
+        width: 22vw;
+       
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+      }
+      .topmiddle{
+              align-items: center;
+              display: flex
+      }
